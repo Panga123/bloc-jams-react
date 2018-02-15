@@ -49,7 +49,7 @@ class Album extends Component {
         const newSong = this.state.album.songs[newIndex];
         this.setSong(newSong);
         this.play(newSong);
-        
+
   }
 
      render() {
@@ -96,4 +96,5 @@ class Album extends Component {
      }
    }
 
+   
 export default Album;
