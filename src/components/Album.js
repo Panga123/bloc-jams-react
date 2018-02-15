@@ -49,6 +49,7 @@ class Album extends Component {
         const newSong = this.state.album.songs[newIndex];
         this.setSong(newSong);
         this.play(newSong);
+        
   }
 
      render() {
